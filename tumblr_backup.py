@@ -4,6 +4,9 @@ import sys
 import urllib2
 import csv
 
+reload(sys);
+sys.setdefaultencoding('UTF8')
+
 # add BeautifulSoup submobule to path
 lib_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'beautifulsoup')
 sys.path.append(lib_dir)
